@@ -1,0 +1,147 @@
+body{
+    background-color:  rgb(193, 255, 245)
+  }
+  
+  /*Header*/
+  div.title{
+    z-index: 1;
+    top: 2cm;
+    position: absolute;
+    left:5.5cm;   
+    height:auto;
+    width:10cm;
+    background-color:rgb(18, 29, 41);
+    color: rgb(193, 255, 245);
+    border: 5px solid rgb(8, 80, 76) ;
+  }
+  
+  h1#title-text{
+    font-size: 42px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: .5cm;
+    padding-right: .5cm;
+    padding-bottom: .5cm;
+  }
+  
+  /*Aside*/
+  div.p1{
+    z-index: -1;
+    position:absolute;
+    top: 7.0cm;
+    left:14cm;
+    height:auto;
+    width:10cm;
+    overflow: auto;
+    background-color:rgb(8, 80, 76);
+    color:rgb(193, 255, 245);
+    border: 5px solid rgb(18, 29, 41);
+  }
+  div#descp1{
+    font-size:17px;
+    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+    padding-top:.5cm;
+    padding-left:1.75cm;
+    padding-right: .5cm;
+    padding-bottom: 0cm;
+    text-align:justify;
+  }        
+  #list{
+    font-size:18px;
+    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+    padding-top:0cm;
+    padding-left: 0cm;
+    padding-right:.5cm;
+    padding-bottom: .5cm;
+    text-align:justify;
+  }
+  
+  /*Article*/
+  div.p2{
+    z-index: -1;
+    position:absolute;
+    top: 2.0cm;
+    left:25.5cm;
+    right:5.5cm;
+    height:auto;
+    width:10cm;
+    float: right;
+    background-color:rgb(8, 80, 76);
+    color:rgb(193, 255, 245);
+    
+  }
+  div#descp2{
+    font-size:23.7px;
+    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+    padding-top:.75cm;
+    padding-left:.5cm;
+    padding-right: .5cm;
+    padding-bottom: .5cm;
+    text-align:justify;
+  }
+  
+  /*Navigation*/
+  #pic1{
+    height:175px;
+    width:175px;
+    position:absolute;
+    top: 17cm;
+    left:9cm;
+  }
+  #pic2{
+    height:175px;
+    width:175px;
+    position:absolute;
+    top: 17cm;
+    left:16cm;
+  }
+  #pic3{
+    height:175px;
+    width:175px;
+    position:absolute;
+    top: 17cm;
+    left:22cm;
+  }
+  #pic4{
+    height:175px;
+    width:175px;
+    position:absolute;
+    top: 17cm;
+    left:28cm;
+  }
+
+  /*Footer*/
+  footer{
+    background-color:rgb(18, 29, 41);
+    color:rgb(193, 255, 245);
+    margin-top: 25cm;
+    font-size:15px;
+    overflow: auto;
+    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+    text-align: center;
+  }
+  #WHOPH, #WHOtwt{
+    background: url('../images/icon.png') no-repeat -296px -91px;
+    width: 33px;
+    height: 33px;
+    position: relative;
+    float: left;
+    margin: 0% 22.5%;
+}
+  #WHOPH:hover, #WHOtwt:hover{
+    background: url('../images/icon.png') no-repeat -296px -16px;
+    width: 33px;
+    height: 33px;
+    }
+  #WHOfacebook{
+    background: url('../images/icon.png') no-repeat -182px -91px;
+    width: 33px;
+    height: 33px;
+    position: relative;
+    float: left;
+    }
+  #WHOfacebook:hover{
+    background: url('../images/icon.png') no-repeat -182px -17px;
+    width: 33px;
+    height: 33px;
+  }
+    

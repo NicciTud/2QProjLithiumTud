@@ -1,0 +1,138 @@
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    margin: 0 0 0 0;
+    height: 20%;
+    width: 100%;
+    background-color: rgb(18, 29, 41);
+    color:rgb(193, 255, 245);
+    float:right;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 200%;
+    clear: left;
+}
+
+/*nav*/
+nav{
+	box-sizing: border-box;
+    float: left;
+    top: 0;
+    position: sticky;
+    height: 2000px;
+    width: 20%;
+    background-color:rgb(8, 80, 76); 
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+@media (min-height: 100px) {
+    nav ul{
+		position: sticky;
+		top: 0;
+    }
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    font-size: 150%;
+    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+    padding: 10%;
+    color:rgb(193, 255, 245);
+}
+
+/*article*/
+article{
+    box-sizing: border-box;
+    float: left;
+    margin: .5%;
+    width: 78%;
+}
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:rgb(8, 80, 76);
+    color:rgb(193, 255, 245);
+    padding: 1%;
+}
+
+h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(193, 255, 245);
+    color:rgb(8, 80, 76);
+    padding: .5%;
+}
+p{
+    padding: .5%;
+    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+    font-size: 100%;
+}
+span{
+    color:rgb(255, 0, 0);
+}
+
+/*aside*/
+aside{
+    position: center;
+    width: auto;
+}
+
+video{
+    float: right;
+    width: 30%;
+    height: auto;
+    margin-right: 25%;
+    margin-top: 2%;
+}
+
+#reference{
+    float:right;
+    text-align: center;
+    margin-right: 25%;
+    width: 30%;
+}
+
+/*footer*/
+footer{
+    margin: 0 0 0 0;
+	height: 20%;
+    width: 100%;
+    background-color: rgb(18, 29, 41);
+    color:rgb(193, 255, 245);
+    float:right;
+    text-align: center;
+    font-family: 'Optima', Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+    font-size: 100%;
+    clear: left;
+  }
+
+  #WHOPH, #WHOtwt{
+    background: url('../images/icon.png') no-repeat -296px -91px;
+    width: 33px;
+    height: 33px;
+    position: relative;
+    float: left;
+    margin: 0% 0% 0 25%;
+}
+  #WHOPH:hover, #WHOtwt:hover{
+    background: url('../images/icon.png') no-repeat -296px -16px;
+    width: 33px;
+    height: 33px;
+    }
+  #WHOfacebook{
+    background: url('../images/icon.png') no-repeat -182px -91px;
+    width: 33px;
+    height: 33px;
+    position: relative;
+    float: left;
+    margin: 0% 0% 0 23%;
+    }
+  #WHOfacebook:hover{
+    background: url('../images/icon.png') no-repeat -182px -17px;
+    width: 33px;
+    height: 33px;
+  }
